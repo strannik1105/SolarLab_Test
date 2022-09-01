@@ -1,7 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using SolarLab_Test_Prj.Repository;
+using SolarLab_Test_Prj.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<DBService>(options => options.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=WebApp2;Trusted_Connection=True;MultipleActiveResultSets=true"));
+builder.Services.AddTransient<IPerson, PersonRepository>();
 
 var app = builder.Build();
 

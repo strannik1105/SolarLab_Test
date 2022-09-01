@@ -4,13 +4,13 @@ namespace SolarLab_Test_Prj.Services
 {
     public interface IPerson
     {
-        public IEnumerator<Person> Persons { get; set; }
+        public IEnumerable<Person> Persons { get; }
         
         public Person GetPerson(int id);
 
-        public IEnumerator<Person> TodayBirthday { get; }
+        public IEnumerable<Person> TodayBirthday { get; }
 
-        public IEnumerator<Person> SoonBirthday { get; }
+        public IEnumerable<Person> SoonBirthday { get; }
 
 
     }

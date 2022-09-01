@@ -9,6 +9,8 @@
 
         public string Surname { get; set; }
 
+        public string Image { get; set; }
+
         public DateTime BirthdayDate { get; set; }
     }
 }
