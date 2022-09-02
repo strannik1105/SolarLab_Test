@@ -1,12 +1,11 @@
 ﻿@model IEnumerable<SolarLab_Test_Prj.Models.Person>
 @{
-    ViewData["Title"] = "Ближайшие дни рождения";
+    ViewData["Title"] = "Полный список";
 }
 
 
 <p>
     <a asp-action="Create">Добавить</a>
-    <a asp-action="All">Показать все</a>
 </p>
 <table class="table">
     <thead>
@@ -34,7 +33,7 @@
                     @Html.DisplayFor(modelItem => item.Surname)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.BirthdayDate.Date)
+                    @Html.DisplayFor(modelItem => item.BirthdayDate)
                 </td>
                 <td>
                     @Html.ActionLink("Изменить", "Edit", new {  id=item.Id  }) |

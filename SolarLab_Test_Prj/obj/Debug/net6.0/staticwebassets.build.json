@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t3KcV5x6kooZ2JdQ/6VnnCvbo9MABvw3t5Ho2bynlto=",
+  "Hash": "sqKdEQs94ZB41X6Z/OdgR/jj3JjDZPpjoU7iXtOkJCA=",
   "Source": "SolarLab_Test_Prj",
   "BasePath": "_content/SolarLab_Test_Prj",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\SolarLab_Test_Prj\\SolarLab_Test_Prj\\wwwroot\\Image\\IMG_20220808_192039221146191.jpg",
+      "SourceId": "SolarLab_Test_Prj",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\SolarLab_Test_Prj\\SolarLab_Test_Prj\\wwwroot\\",
+      "BasePath": "_content/SolarLab_Test_Prj",
+      "RelativePath": "Image/IMG_20220808_192039221146191.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\IMG_20220808_192039221146191.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\SolarLab_Test_Prj\\SolarLab_Test_Prj\\wwwroot\\js\\site.js",
